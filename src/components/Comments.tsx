@@ -1,4 +1,4 @@
-export default async function Comments(postSlug) {
+export default async function Comments({ postSlug }: { postSlug: string }) {
   return (
     <div>
       <h2>| Comments |</h2>
