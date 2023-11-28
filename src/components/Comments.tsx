@@ -1,4 +1,5 @@
 export default async function Comments(postSlug) {
+  c;
   return (
     <div>
       <h2>| Comments |</h2>
@@ -9,7 +10,12 @@ export default async function Comments(postSlug) {
         <input type="text" name="username" />
 
         <label htmlFor="comment">Your comment::</label>
-        <textarea name="username" cols={30} rows={10} />
+        <textarea
+          name="username"
+          cols={30}
+          rows={10}
+          className="text-neutral-900"
+        />
 
         <button type="submit">send comment</button>
       </form>
