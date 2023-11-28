@@ -1,5 +1,4 @@
 export default async function Comments(postSlug) {
-  c;
   return (
     <div>
       <h2>| Comments |</h2>
